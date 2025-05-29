@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "688974213418",
+    "firebase_url": "https://calltest-359ac-default-rtdb.firebaseio.com",
+    "project_id": "calltest-359ac",
+    "storage_bucket": "calltest-359ac.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688974213418:android:1578cb2e3ae801d782ee53",
+        "android_client_info": {
+          "package_name": "com.example.flutter_web_rtc_with_call_kit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfXfCZxF8PWNSua2xtz2nOLYS1atc1Ri4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688974213418:android:83dc42bd0c559ab882ee53",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfXfCZxF8PWNSua2xtz2nOLYS1atc1Ri4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
