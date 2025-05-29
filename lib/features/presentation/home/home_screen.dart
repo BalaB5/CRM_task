@@ -14,6 +14,7 @@ import '../../../core/fcm_helper.dart';
 import '../../../core/ui_utils.dart';
 import '../../../services/service_locator.dart';
 import '../../models/call_log.dart';
+import '../../models/chat_room_model.dart';
 import '../../models/notification_payload.dart';
 import '../../models/user_model.dart';
 import '../../repositories/auth_repository.dart';
@@ -275,7 +276,8 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                 color: Colors.white,
               ),
             ),
-          ), InkWell(
+          ),
+          InkWell(
             onTap: () {
               getIt<AppRouter>().navigatorKey.currentState!.push(
                 MaterialPageRoute(builder: (context) => const CallListScreen()),
@@ -283,11 +285,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
             },
             child: const Padding(
               padding: EdgeInsets.only(right: 16.0, left: 16.0),
-              child: Icon(
-                Icons.phone,
-                size: 25,
-                color: Colors.white,
-              ),
+              child: Icon(Icons.phone, size: 25, color: Colors.white),
             ),
           ),
           InkWell(
